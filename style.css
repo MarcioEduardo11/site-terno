@@ -1,4 +1,4 @@
-/* Estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,15 +7,12 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
 header {
     background-color: #111;
     color: white;
     text-align: center;
     padding: 25px;
 }
-
-/* Botões de acessibilidade */
 .acessibilidade {
     margin-top: 10px;
 }
@@ -41,7 +38,6 @@ header {
     outline-offset: 2px;
 }
 
-/* Menu de navegação */
 nav {
     margin-top: 15px;
 }
@@ -62,7 +58,6 @@ nav a:focus {
     outline-offset: 2px;
 }
 
-/* Conteúdo principal */
 main {
     width: 90%;
     max-width: 1200px;
@@ -97,7 +92,6 @@ img {
     border-radius: 10px;
 }
 
-/* Rodapé */
 footer {
     background-color: #111;
     color: white;
@@ -105,7 +99,6 @@ footer {
     padding: 15px;
 }
 
-/* Modo de alto contraste */
 .alto-contraste {
     background-color: black !important;
     color: white !important;

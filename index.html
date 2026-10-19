@@ -14,9 +14,9 @@
         <h1 id="titulo-pagina">Guia dos Ternos</h1>
 
         <div id="barra-acessibilidade" class="acessibilidade">
-            <button id="btn-aumentar" class="btn-acessibilidade" aria-label="Aumentar tamanho da fonte">A+</button>
-            <button id="btn-diminuir" class="btn-acessibilidade" aria-label="Diminuir tamanho da fonte">A-</button>
-            <button id="btn-contraste" class="btn-acessibilidade" aria-label="Ativar ou desativar o modo de alto contraste" aria-pressed="false">Contraste</button>
+            <button id="btn-aumentar" class="btn-acessibilidade" onclick="aumentarFonte()" aria-label="Aumentar tamanho da fonte">A+</button>
+            <button id="btn-diminuir" class="btn-acessibilidade" onclick="diminuirFonte()" aria-label="Diminuir tamanho da fonte">A-</button>
+            <button id="btn-contraste" class="btn-acessibilidade" onclick="alternarContraste()" aria-label="Ativar ou desativar o modo de alto contraste" aria-pressed="false">Contraste</button>
         </div>
 
         <nav id="menu" class="menu" aria-label="Menu principal">
@@ -44,6 +44,7 @@
         <p>Ternos do Narseo 2026</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
