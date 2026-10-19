@@ -8,33 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="pagina-inicio">
 
-    <header>
-        <h1>Guia dos Ternos</h1>
+    <header id="cabecalho">
+        <h1 id="titulo-pagina">Guia dos Ternos</h1>
 
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="ternos.html">Tipos de Ternos</a>
-            <a href="estilos.html">Como Escolher</a>
+        <div id="barra-acessibilidade" class="acessibilidade">
+            <button id="btn-aumentar" class="btn-acessibilidade" aria-label="Aumentar tamanho da fonte">A+</button>
+            <button id="btn-diminuir" class="btn-acessibilidade" aria-label="Diminuir tamanho da fonte">A-</button>
+            <button id="btn-contraste" class="btn-acessibilidade" aria-label="Ativar ou desativar o modo de alto contraste" aria-pressed="false">Contraste</button>
+        </div>
+
+        <nav id="menu" class="menu" aria-label="Menu principal">
+            <a href="index.html" class="link-menu">Início</a>
+            <a href="ternos.html" class="link-menu">Tipos de Ternos</a>
+            <a href="estilos.html" class="link-menu">Como Escolher</a>
         </nav>
     </header>
 
-    <main>
-        <section id="inicio">
-            <h2>Elegância em cada detalhe</h2>
+    <main id="conteudo-principal">
+        <section id="inicio" class="secao">
+            <h2 class="titulo-secao">Elegância em cada detalhe</h2>
 
             <p>
                 O terno é uma peça clássica que transmite elegância
                 e pode ser usado em diferentes ocasiões.
             </p>
 
-            <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35"
+            <img class="imagem-terno" src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35"
                  alt="Homem usando terno">
         </section>
     </main>
 
-    <footer>
+    <footer id="rodape">
         <p>Ternos do Narseo 2026</p>
     </footer>
 

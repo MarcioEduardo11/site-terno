@@ -8,38 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="pagina-estilos">
 
-    <header>
-        <h1>Como Escolher um Terno</h1>
+    <header id="cabecalho">
+        <h1 id="titulo-pagina">Como Escolher um Terno</h1>
 
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="ternos.html">Tipos de Ternos</a>
-            <a href="estilos.html">Como Escolher</a>
+        <div id="barra-acessibilidade" class="acessibilidade">
+            <button id="btn-aumentar" class="btn-acessibilidade" aria-label="Aumentar tamanho da fonte">A+</button>
+            <button id="btn-diminuir" class="btn-acessibilidade" aria-label="Diminuir tamanho da fonte">A-</button>
+            <button id="btn-contraste" class="btn-acessibilidade" aria-label="Ativar ou desativar o modo de alto contraste" aria-pressed="false">Contraste</button>
+        </div>
+
+        <nav id="menu" class="menu" aria-label="Menu principal">
+            <a href="index.html" class="link-menu">Início</a>
+            <a href="ternos.html" class="link-menu">Tipos de Ternos</a>
+            <a href="estilos.html" class="link-menu">Como Escolher</a>
         </nav>
     </header>
 
-    <main>
+    <main id="conteudo-principal">
 
-        <section class="tipo">
-            <h2>Escolha a Cor</h2>
+        <section id="escolha-cor" class="secao tipo">
+            <h2 class="titulo-secao">Escolha a Cor</h2>
             <p>
                 Preto, azul-marinho e cinza são cores versáteis
                 e combinam com diversas ocasiões.
             </p>
         </section>
 
-        <section class="tipo">
-            <h2>Escolha o Tecido</h2>
+        <section id="escolha-tecido" class="secao tipo">
+            <h2 class="titulo-secao">Escolha o Tecido</h2>
             <p>
                 O tecido deve ser escolhido de acordo com o clima
                 e com a ocasião em que o terno será usado.
             </p>
         </section>
 
-        <section class="tipo">
-            <h2>Combine os Acessórios</h2>
+        <section id="escolha-acessorios" class="secao tipo">
+            <h2 class="titulo-secao">Combine os Acessórios</h2>
             <p>
                 Camisa, gravata, sapato e cinto devem combinar
                 para criar um visual elegante.
@@ -48,8 +54,8 @@
 
     </main>
 
-    <footer>
-        <p>Ternos do Narseo 2026    </p>
+    <footer id="rodape">
+        <p>Ternos do Narseo 2026</p>
     </footer>
 
 </body>

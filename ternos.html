@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="pagina-ternos">
 
-    <header>
-        <h1>Tipos de Ternos</h1>
+    <header id="cabecalho">
+        <h1 id="titulo-pagina">Tipos de Ternos</h1>
 
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="ternos.html">Tipos de Ternos</a>
-            <a href="estilos.html">Como Escolher</a>
+        <div id="barra-acessibilidade" class="acessibilidade">
+            <button id="btn-aumentar" class="btn-acessibilidade" aria-label="Aumentar tamanho da fonte">A+</button>
+            <button id="btn-diminuir" class="btn-acessibilidade" aria-label="Diminuir tamanho da fonte">A-</button>
+            <button id="btn-contraste" class="btn-acessibilidade" aria-label="Ativar ou desativar o modo de alto contraste" aria-pressed="false">Contraste</button>
+        </div>
+
+        <nav id="menu" class="menu" aria-label="Menu principal">
+            <a href="index.html" class="link-menu">Início</a>
+            <a href="ternos.html" class="link-menu">Tipos de Ternos</a>
+            <a href="estilos.html" class="link-menu">Como Escolher</a>
         </nav>
     </header>
 
-    <main>
+    <main id="conteudo-principal">
 
-        <section class="tipo">
-            <h2>Terno Clássico</h2>
+        <section id="terno-classico" class="secao tipo">
+            <h2 class="titulo-secao">Terno Clássico</h2>
 
-            <img src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e"
+            <img class="imagem-terno" src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e"
                  alt="Terno clássico">
 
             <p>
@@ -34,10 +40,10 @@
             </p>
         </section>
 
-        <section class="tipo">
-            <h2>Terno Slim</h2>
+        <section id="terno-slim" class="secao tipo">
+            <h2 class="titulo-secao">Terno Slim</h2>
 
-            <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf"
+            <img class="imagem-terno" src="https://images.unsplash.com/photo-1507679799987-c73779587ccf"
                  alt="Terno slim">
 
             <p>
@@ -46,10 +52,10 @@
             </p>
         </section>
 
-        <section class="tipo">
-            <h2>Terno de 3 Peças</h2>
+        <section id="terno-tres-pecas" class="secao tipo">
+            <h2 class="titulo-secao">Terno de 3 Peças</h2>
 
-            <img src="https://images.unsplash.com/photo-1555069519-127aadedf1ee"
+            <img class="imagem-terno" src="https://images.unsplash.com/photo-1555069519-127aadedf1ee"
                  alt="Terno de três peças">
 
             <p>
@@ -60,7 +66,7 @@
 
     </main>
 
-    <footer>
+    <footer id="rodape">
         <p>Ternos do Narseo 2026</p>
     </footer>
 
