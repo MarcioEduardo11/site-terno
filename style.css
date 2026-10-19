@@ -1,17 +1,13 @@
-.tipo {
-    border-left: 5px solid #d4af37;
-}
-
-#inicio {
-    text-align: center;
-}
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #f2f2f2;
     color: #222;
+    line-height: 1.6;
 }
 
+/* Cabeçalho */
 header {
     background-color: #111;
     color: white;
@@ -19,6 +15,33 @@ header {
     padding: 25px;
 }
 
+/* Botões de acessibilidade */
+.acessibilidade {
+    margin-top: 10px;
+}
+
+.acessibilidade button {
+    margin: 5px;
+    padding: 6px 12px;
+    background-color: #fff;
+    color: #111;
+    border: 2px solid #d4af37;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.acessibilidade button:hover {
+    background-color: #d4af37;
+    color: #111;
+}
+
+.acessibilidade button:focus {
+    outline: 3px solid #4da3ff;
+    outline-offset: 2px;
+}
+
+/* Menu de navegação */
 nav {
     margin-top: 15px;
 }
@@ -31,8 +54,15 @@ nav a {
 
 nav a:hover {
     color: #d4af37;
+    text-decoration: underline;
 }
 
+nav a:focus {
+    outline: 3px solid #4da3ff;
+    outline-offset: 2px;
+}
+
+/* Conteúdo principal */
 main {
     width: 90%;
     max-width: 1200px;
@@ -51,6 +81,10 @@ section {
     border-left: 5px solid #d4af37;
 }
 
+#inicio {
+    text-align: center;
+}
+
 h2 {
     color: #333;
 }
@@ -63,9 +97,65 @@ img {
     border-radius: 10px;
 }
 
+/* Rodapé */
 footer {
     background-color: #111;
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+/* Modo de alto contraste */
+.alto-contraste {
+    background-color: black !important;
+    color: white !important;
+}
+
+.alto-contraste header,
+.alto-contraste footer {
+    background-color: black !important;
+    color: yellow !important;
+}
+
+.alto-contraste header {
+    border-bottom: 3px solid yellow;
+}
+
+.alto-contraste footer {
+    border-top: 3px solid yellow;
+}
+
+.alto-contraste section {
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid white;
+}
+
+.alto-contraste .tipo {
+    border-left: 8px solid yellow;
+}
+
+.alto-contraste h1,
+.alto-contraste h2 {
+    color: yellow !important;
+}
+
+.alto-contraste nav a {
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+.alto-contraste .acessibilidade button {
+    background-color: black !important;
+    color: yellow !important;
+    border: 2px solid yellow !important;
+}
+
+.alto-contraste .acessibilidade button:hover {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+.alto-contraste img {
+    border: 3px solid white;
 }
